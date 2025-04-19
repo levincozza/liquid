@@ -7,7 +7,7 @@ LDFLAGS = -Llib/ -framework CoreVideo -framework IOKit -framework Cocoa -framewo
 
 # Source files and target
 SRC = $(wildcard *.c)
-TARGET = boids.out
+TARGET = liquid.out
 
 # Default build
 all: $(TARGET)
